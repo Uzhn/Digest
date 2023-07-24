@@ -1,0 +1,71 @@
+{
+  "users": [
+    {
+      "id": 11,
+      "name": "John"
+    },
+    {
+      "id": 12,
+      "name": "Bob"
+    },
+    {
+      "id": 13,
+      "name": "Mike"
+    }
+  ],
+  "subscriptions": [
+    {
+      "id": 11,
+      "source_name": "News",
+      "subscribers": [11]
+    },
+    {
+      "id": 12,
+      "source_name": "Technology",
+      "subscribers": [11, 12]
+    },
+    {
+      "id": 13,
+      "source_name": "Books",
+      "subscribers": [11, 12, 13]
+    }
+  ],
+  "posts": [
+    {
+      "id": 11,
+      "content": "Post 1 content",
+      "rating": 7,
+      "subscription_id": 11
+    },
+    {
+      "id": 12,
+      "content": "Post 2 content",
+      "rating": 5,
+      "subscription_id": 11
+    },
+    {
+      "id": 13,
+      "content": "Post 3 content",
+      "rating": 8,
+      "subscription_id": 12
+    },
+    {
+      "id": 14,
+      "content": "Post 4 content",
+      "rating": 6,
+      "subscription_id": 12
+    },
+    {
+      "id": 15,
+      "content": "Post 5 content",
+      "rating": 2,
+      "subscription_id": 13
+    },
+    {
+      "id": 17,
+      "content": "Post 6 content",
+      "rating": 10,
+      "subscription_id": 13
+    }
+  ]
+}
